@@ -1,0 +1,1 @@
+for host in $(cat hosts.txt); do ssh "$host" "sudo reboot"; done
