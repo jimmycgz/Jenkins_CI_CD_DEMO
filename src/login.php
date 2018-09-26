@@ -15,7 +15,7 @@ $str_name=$str_pass=0;
 
   
 <div id="main" >
-<h2> DEMO Website Built by PHP with RDS DB ----Version 4.1 </h2>
+<h2> DEMO Website Built by PHP with RDS DB ----Version 4.10 </h2>
 <div id="style_login">
 <h2>User Login</h2>
 <hr/>
