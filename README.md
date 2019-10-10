@@ -1,8 +1,16 @@
-# Test again at Jul 24, refined the code for deployment.
-# Demo for Web Service in Cloud using container and DevOps Pipeline
-# Have toolserver and test environment in AWS, Production instances in GCP and Azure
-# trigger multiple Pipeline projects in Jenkins for Integration, Build, Test, Deploy to Dev and Production.
+# DEMO of CICD Pipeline with Jenkins, AWS, GCP and Azure
 
+### Last Update ###
+
+* Test again at Jul 24, refined the code for deployment.
+
+* Demo for Web Service in Cloud using container and DevOps Pipeline
+
+* Have toolserver and test environment in AWS, Production instances in GCP and Azure
+
+* trigger multiple Pipeline projects in Jenkins for Integration, Build, Test, Deploy to Dev and Production.
+
+### Features and Steps ###
 
 This assignment accomplish below tasks:
 
