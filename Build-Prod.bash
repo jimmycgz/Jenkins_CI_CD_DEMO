@@ -16,8 +16,8 @@
     #//Follow below steps to resolve issue : Unable to locate credentials. You can configure credentials by running "aws configure".
     # //Step0: Read this guide https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-jenkins.html
     #//Step1: In AWS IAM, Create a user account for the Jenkins server , like Jenkins-aws, record the Key ID and Sec Key.
-    #//Stpe2: In SHELL of Jenkins server, change to jenkins user and run: sudo su – jenkins  ; aws configure -profile Jenkins-aws // input the key recorded from AWS IAM for Jenkins user like Jenkins-aws
-    #//Step3: Sudo su ;  chmod 777 for the two files config and credentials in /var/lib/jenkins/.aws
+    #//Stpe2: In SHELL of Jenkins server, change to jenkins user and run: sudo su â€“ jenkins  ; aws configure -profile Jenkins-aws // input the key recorded from AWS IAM for Jenkins user like Jenkins-aws
+    #//Step3: Sudo su ;  chmod 640 for the two files config and credentials in /var/lib/jenkins/.aws
     #//Step4: Verify AWS S3 command at jenkins linux CLI. DONE setup!!!
 
     #//Clarify about the users being used by Jenkins, Linux and AWS:
