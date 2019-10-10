@@ -43,7 +43,7 @@ pipeline {
  //Step0: Read this guide https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-jenkins.html
 //Step1: In AWS IAM, Create a user account for the Jenkins server , like Jenkins-aws, record the Key ID and Sec Key.
 //Stpe2: In SHELL of Jenkins server, change to jenkins user and run: sudo su � jenkins  ; aws configure - profile Jenkins-aws // input the key recorded from AWS IAM, associate this profile Jenkins-aws to Linux user jenkins
-//Step3: exit jenkins and sudo su to root or switch to ubuntu ;  chmod 777 for the two files config and credentials in /var/lib/jenkins/.aws
+//Step3: exit jenkins and sudo su to root or switch to ubuntu ;  chmod 640 for the two files config and credentials in /var/lib/jenkins/.aws
 //Step4: test if the these two accounts get associated: sudo su -jenkins; aws s3api list-buckets --query "Buckets[].Name" --profile Jenkins-aws  
 //Step5: Add 3 Environment variables aws_access_key_id AWS_DEFAULT_REGION aws_secret_access_key with related key values   DONE setup!!!
 
